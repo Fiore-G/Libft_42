@@ -35,25 +35,3 @@ void	*ft_calloc(size_t num_elements, size_t size_of_element)
 	}
 	return (ptr);
 }
-/*
-int	main(void)
-{
-	int	*arr;
-	size_t	num_elements = 5;
-	size_t	i;
-	
-	i = 0;
-	arr = (int *)ft_calloc(num_elements, sizeof(int));
-	if (arr == NULL)
-	{
-		printf("Error al asignar memoria.\n");
-		return (1);
-	}
-	while (i < num_elements)
-	{
-		printf("arr[%zu] = %d\n", i, arr[i]);
-		i++;
-	}
-	free (arr);
-	return (0);
-}*/
