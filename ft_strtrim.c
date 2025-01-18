@@ -34,19 +34,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(cut, &s1[start], len + 1);
 	return (cut);
 }
-/*
-int	main(void)
-{
-	char	*str = "  **Well, well, well**       ";
-	char	*set = " ";
-	char	*result = ft_strtrim(str, set);
-
-	if (result != NULL)
-	{
-		printf("Resultado recortado: %s\n", result);
-		free(result);
-	}
-	else
-		printf("Error al recortar la cadena.\n");
-	return (0);
-}*/
