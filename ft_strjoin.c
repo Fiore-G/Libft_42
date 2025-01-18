@@ -29,19 +29,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	ft_strlcpy(&concat[len1], s2, len2 + 1);
 	return (concat);
 }
-/*
-int	main(void)
-{
-	char	*string1 = "Vamos a";
-	char	*string2 = " concatenar";
-	char	*result = ft_strjoin(string1, string2);
-
-	if (result != NULL)
-	{
-		printf("%s\n", result);
-		free(result);
-	}
-	else
-		printf("Error: No se pudo asignar memoria.\n");
-	return (0);
-}*/
