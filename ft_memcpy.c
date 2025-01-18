@@ -14,29 +14,19 @@
 
 void	*ft_memcpy(void *dest, const void *src, size_t num_bytes)
 {
-	unsigned char		*destt;
-	const unsigned char	*srcc;
+	unsigned char		*d;
+	const unsigned char	*s;
 	size_t				i;
 
 	if (dest == NULL && src == NULL && num_bytes > 0)
 		return (NULL);
-	destt = (unsigned char *)dest;
-	srcc = (const unsigned char *)src;
+	d = (unsigned char *)dest;
+	s = (const unsigned char *)src;
 	i = 0;
 	while (i < num_bytes)
 	{
-		destt[i] = srcc[i];
+		d[i] = s[i];
 		i++;
 	}
 	return (dest);
 }
-/*
-int	main(void)
-{
-	char	src[] = "Ariana Grande";
-	char	dest[15] = "";
-
-	ft_memcpy(dest, src, sizeof(src));
-	printf("Contenido de dest:%s\n", dest);
-	return (0);
-}*/
