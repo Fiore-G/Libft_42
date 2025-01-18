@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 void	ft_bzero(void *ptr, size_t num_bytes)
 {
@@ -26,20 +25,3 @@ void	ft_bzero(void *ptr, size_t num_bytes)
 		i++;
 	}
 }
-/*
-int	main(void)
-{
-	char	array[15];
-	size_t	i;
-
-	ft_bzero(array, sizeof(array));
-	printf("Contenido del array: ");
-	i = 0;
-	while (i < sizeof(array))
-	{
-		printf("%d", array[i]);
-		i++;
-	}
-	printf("\n");
-	return (0);
-}*/
