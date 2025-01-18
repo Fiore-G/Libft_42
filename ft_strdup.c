@@ -26,19 +26,3 @@ char	*ft_strdup(const char *str)
 	ft_strlcpy(copy, str, len + 1);
 	return (copy);
 }
-/*
-int	main(void)
-{
-	char	*strng = "Que se duplique";
-	char	*dup = ft_strdup(strng);
-
-	if (dup == NULL)
-	{
-		printf("La memoria no pudo ser asignada.\n");
-		return (1);
-	}
-	printf("Esta es la cadena original: %s\n", strng);
-	printf("Esta es la cadena duplicada: %s\n", dup);
-	free(dup);
-	return (0);
-}*/
