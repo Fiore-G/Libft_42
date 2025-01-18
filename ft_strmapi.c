@@ -31,25 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	new_str[i] = '\0';
 	return (new_str);
 }
-/*
-char	ft_lowercase(unsigned int index, char c)
-{
-	(void)index;
-	if (c >= 'A' && c <= 'Z')
-		return (c + 32);
-	return (c);
-}
-int	main(void)
-{
-	char	*str = "HELLO THERE";
-	char	*result = ft_strmapi(str, ft_lowercase);
-	
-	if (result)
-	{
-		printf("Resultado: %s\n", result);
-		free(result);
-	}
-	else
-		printf("No se pudo reservar la memoria.\n");
-	return (0);
-}*/
