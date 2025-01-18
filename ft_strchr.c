@@ -24,13 +24,3 @@ char	*ft_strchr(const char *str, int c)
 		return ((char *)str);
 	return (NULL);
 }
-/*
-int	main(void)
-{
-	char str[] = "Hello, World!";
-	char *result = ft_strchr(str, 'o');
-	if (result != NULL)
-    	printf("Caracter encontrado en: %s\n", result);
-	else
-    	printf("Caracter no encontrado\n");
-}*/
