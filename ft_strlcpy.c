@@ -32,14 +32,3 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t size)
 	}
 	return (src_len);
 }
-/*
-int	main(void)
-{
-	char	dest[9];
-	const char	*src = "Welcome back";
-	size_t	copied = ft_strlcpy(dest, src, sizeof(dest));
-
-	printf("Destino: %s\n", dest);
-	printf("Longitud de la fuente: %zu\n", copied);
-	return (0);
-}*/
