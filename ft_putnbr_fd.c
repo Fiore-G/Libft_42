@@ -31,12 +31,3 @@ void	ft_putnbr_fd(int n, int fd)
 		}
 	}
 }
-/*
-int	main(void)
-{
-	int	value = -214647;
-
-	ft_putnbr_fd(value, 1);
-	ft_putchar_fd('\n', 1);
-	return (0);
-}*/
