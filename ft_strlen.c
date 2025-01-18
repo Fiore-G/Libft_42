@@ -21,10 +21,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-/*
-int	main(void)
-{
-	char	*string = "Siuuuuuuuu";
-	printf("El contador es igual a: %d", ft_strlen(string));
-	return (0);
-}*/
