@@ -27,15 +27,3 @@ char	*ft_strrchr(const char *str, int c)
 		return ((char *)str);
 	return ((char *)last_occurence);
 }
-/*
-int	main(void)
-{
-	char	*strng = "Benvingut";
-	char	*result = ft_strrchr(strng, 'n');
-	
-	if (result)
-		printf("Ultima aparicion de 'n' es: %s\n", result);
-	else
-		printf("Caracter no encontrado en la cadena.\n");
-	return (0);
-}*/
