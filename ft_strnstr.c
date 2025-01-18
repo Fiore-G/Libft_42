@@ -32,13 +32,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-/*
-int	main(void)
-{
-	char	*string = "I feel better";
-	char	*substring = "feel";
-	size_t	bytes = 14;
-
-	printf("Subcadena detectada: %s\n", ft_strnstr(string, substring, bytes));
-	return (0);
-}*/
