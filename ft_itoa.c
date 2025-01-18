@@ -55,19 +55,3 @@ char	*ft_itoa(int n)
 	}
 	return (result);
 }
-/*
-int	main(void)
-{
-	int	num = -2147483648;
-	char	*num_str = ft_itoa(num);
-
-	if (num_str != NULL)
-	{
-		printf("Entero a string: %s\n", num_str);
-		free(num_str);
-	}
-	else
-		printf("Error al asignar la memoria.\n");
-	return (0);
-}
-*/
