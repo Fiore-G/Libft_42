@@ -19,10 +19,3 @@ void	ft_putstr_fd(char *s, int fd)
 	while (*s)
 		write(fd, s++, 1);
 }
-/*
-int	main(void)
-{
-	char	*str = "Muestrame el string.\n";
-	ft_putstr_fd(str, 1);
-	return (0);
-}*/
