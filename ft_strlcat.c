@@ -35,14 +35,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dest[dst_len + i] = '\0';
 	return (dst_len + src_len);
 }
-
-int	main(void)
-{
-	char	dest[25] = "Hello ";
-	const char	src[] = "world!";
-	size_t	concat = ft_strlcat(dest, src, sizeof(dest));
-
-	printf("String concatenado: %s\n", dest);
-	printf("Longitud del string: %zu\n", concat);
-	return (0);
-}
