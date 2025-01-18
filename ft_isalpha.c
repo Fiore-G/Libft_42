@@ -18,23 +18,3 @@ int	ft_isalpha(int c)
 		return (1);
 	return (0);
 }
-/*
-int	main(void)
-{
-	char	test_chars[] = {'a', 'f', '0', '*', '7', 'H'};
-	int	i;
-
-	printf("Pruebas de ft_isalpha:\n");
-	i = 0;
-	while (test_chars[i] != '\0')
-	{
-		char	c = test_chars[i];
-
-		if (ft_isalpha(c))
-		       	printf("El caracter '%c'es una letra.\n", c);
-		else
-			printf("El caracter '%c' no es una letra.\n", c);
-		i++;
-	}
-	return (0);
-}*/
