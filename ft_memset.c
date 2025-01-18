@@ -26,19 +26,3 @@ void	*ft_memset(void *ptr, int value, size_t num_bytes)
 	}
 	return (ptr);
 }
-/*
-int	main(void)
-{
-	char	array[10];
-	size_t	i;
-
-	ft_memset(array, 'F', sizeof(array));
-	i = 0;
-	while (i < sizeof(array))
-	{
-		printf("%c", array[i]);
-		i++;
-	}
-	printf("\n");
-	return (0);
-}*/
