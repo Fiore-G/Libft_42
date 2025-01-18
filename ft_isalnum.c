@@ -19,23 +19,3 @@ int	ft_isalnum(int c)
 		return (1);
 	return (0);
 }
-/*
-int	main(void)
-{
-	char	test_alnum[] = {'N', '0', '8', '(', '+', '3', 'r', 'l', '5'};
-	int	size = sizeof(test_alnum) / sizeof(test_alnum[0]);
-	int	i;
-
-	printf("Pruebas de alnum:\n");
-	i = 0;
-	while (i < size)
-	{
-		char	c = test_alnum[i];
-		if (ft_isalnum(c))
-			printf("El caracter '%c' es alfanumerico.\n", c);
-		else
-			printf("El caracter '%c' no es alfanumerico.\n", c);
-		i++;
-	}
-	return (0);
-}*/
