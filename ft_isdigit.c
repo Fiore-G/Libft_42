@@ -18,24 +18,3 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
-/*
-int	main(void)
-{
-	int	test_digits[] = {'9', 'a', '4', 'G', '0', '3', '-', '$'};
-	int	size = sizeof(test_digits) / sizeof(test_digits[0]);
-	int	i;
-
-	printf("Pruebas de ft_isdigit:\n");
-	i = 0;
-	while (i < size)
-	{
-		int	c = test_digits[i];
-
-		if (ft_isdigit(c))
-			printf("El elemento '%c' es un digito:\n", c);
-		else
-			printf("El elemento '%c' no es un digito:\n", c);
-		i++;
-	}
-	return (0);
-}*/
