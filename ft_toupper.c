@@ -18,17 +18,3 @@ int	ft_toupper(int c)
 		return (c - ('a' - 'A'));
 	return (c);
 }
-/*
-int	main(void)
-{
-	char	lower = 'h';
-	char	upper = ft_toupper(lower);
-
-	printf("Original: %c, Convertido: %c\n", lower, upper);
-
-	char	non_alpha = '1';
-	char	result = ft_toupper(non_alpha);
-
-	printf("Original: %c, No convertido: %c\n", non_alpha, result);
-	return (0);
-}*/
