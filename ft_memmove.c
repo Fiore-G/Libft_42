@@ -14,38 +14,28 @@
 
 void	*ft_memmove(void *dest, const void *src, size_t num_bytes)
 {
-	unsigned char		*destt;
-	const unsigned char	*srcc;
+	unsigned char		*d;
+	const unsigned char	*s;
 	size_t				i;
 
 	if (dest == NULL && src == NULL && num_bytes > 0)
 		return (NULL);
-	destt = (unsigned char *)dest;
-	srcc = (const unsigned char *)src;
-	if (destt > srcc && destt < srcc + num_bytes)
+	d = (unsigned char *)dest;
+	s = (const unsigned char *)src;
+	if (d > s && d < s + num_bytes)
 	{
 		i = num_bytes;
 		while (i--)
-			destt[i] = srcc[i];
+			d[i] = s[i];
 	}
 	else
 	{
 		i = 0;
 		while (i < num_bytes)
 		{
-			destt[i] = srcc[i];
+			d[i] = s[i];
 			i++;
 		}
 	}
 	return (dest);
 }
-/*
-int	main(void)
-
-{
-	char	src[] = "Buenas noches";
-	printf("Antes: %s\n", src);
-	ft_memmove(src + 2, src, 5);
-	printf("Despues: %s\n", src);
-	return (0);
-}*/
