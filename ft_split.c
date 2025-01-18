@@ -100,23 +100,3 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (result);
 }
-/*
-int	main(void)
-{
-	char	*string = "Vamos a hacer split";
-	char	**resultado = ft_split(string, ' ');
-	int	i = 0;
-	
-	if (resultado)
-	{
-		while (resultado[i] != NULL)
-		{
-			printf("%s\n", resultado[i]);
-			i++;
-		}
-		free_split(resultado, i);
-	}
-	else
-		printf("Fallo al reservar la memoria.\n");
-	return (0);
-}*/
