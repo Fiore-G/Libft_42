@@ -18,16 +18,3 @@ int	ft_tolower(int c)
 		return (c - ('A' - 'a'));
 	return (c);
 }
-/*
-int	main(void)
-{
-	char	upper = 'L';
-	char	lower = ft_tolower(upper);
-
-	printf("Original: %c, Convertido %c\n", upper, lower);
-
-	char	non_alpha = '6';
-	char	result = ft_tolower(non_alpha);
-
-	printf("Original: %c, No convertido %c\n", non_alpha, result);
-}*/
