@@ -25,20 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-/*
-void	ft_uppercase(unsigned int index, char *c)
-{
-	(void)index;
-	if (*c >= 'a' && *c <= 'z')
-		*c -= 32;
-}
-
-int	main(void)
-{
-	char	str[] = "hello there";
-	ft_striteri(str, ft_uppercase);
-
-	printf("Resultado: %s\n", str);
-	return (0);
-}
-*/
