@@ -1,2 +1,2 @@
 # Libft_42📃
-Este es el primer proyecto del cursus de 42 que consiste en recrear funciones de la libreria standart de C para luego utilizarlas en futuros proyectos ⭐. 
+This is the first project of the 42 cursus, which consists of recreating functions from the C standard library to later use them in future projects⭐. 
